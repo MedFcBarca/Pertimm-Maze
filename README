@@ -1,0 +1,38 @@
+# Pertimm Maze Solver
+
+This project is a Node.js program that solves the Pertimm maze game automatically by interacting with the game API.
+
+---
+
+## Features
+
+- Starts a new game with a player name.
+- Explores the maze using API calls.
+- Uses backtracking algorithm to find the exit.
+- Prints the maze state in the console with emojis for visualization.
+- Handles traps and dead ends.
+- Clean and modular code with separation in constants, API calls, map utilities, solver logic, and main entry point.
+
+---
+
+## Project Structure
+
+- `src/constants.js` — Stores constant values like player name.
+- `src/api.js` — Handles all HTTP requests to the maze API.
+- `src/map.js` — Manages discovered maze cells and console visualization.
+- `src/solver.js` — Implements the maze solving algorithm (backtracking).
+- `src/index.js` — Main entry point that launches the game.
+
+---
+
+
+## Installation
+
+1. Install Node.js and npm if you haven't already.
+
+npm install axios qs
+
+
+## How to use :D ?
+
+cd /src then npm start
